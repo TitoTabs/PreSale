@@ -103,7 +103,7 @@ const Container = () => {
       </div>
 
       {/* Description Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12 bg-gray-50 px-2">
         <div className="container mx-auto text-center">
           {/* Subheadline */}
           <p className="text-xl md:text-2xl font-semibold text-gray-800 max-w-4xl mx-auto leading-relaxed">
@@ -116,7 +116,7 @@ const Container = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16 bg-gradient-to-b from-gray-50 via-white to-gray-50">
+      <section className="py-16 bg-gradient-to-b from-gray-50 via-white to-gray-50 p-4">
         <div className="container mx-auto space-y-16">
           {/* Section Title */}
           <h2 className="text-4xl font-extrabold text-center text-gray-800 tracking-tight animate-slideInDown">
@@ -164,7 +164,7 @@ const Container = () => {
 
       {/* Key Features Section */}
       <section
-        className="py-16 bg-gradient-to-b from-gray-50 to-gray-100 animate-fadeIn"
+        className="py-16 bg-gradient-to-b from-gray-50 to-gray-100 animate-fadeIn p-4"
         style={{ animationDelay: "1.5s" }}
       >
         <div className="container mx-auto">
@@ -217,11 +217,11 @@ const Container = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50 text-gray-800">
+      <section className="py-16 bg-gray-50 text-gray-800 p-4">
         <div className="container mx-auto text-center">
           {/* Title */}
-          <h2 className="text-3xl font-extrabold text-gray-900 mb-8 tracking-tight">
-            What Our Happy Customers Are Saying
+          <h2 className="text-3xl font-extrabold text-gray-900 mb-8">
+            PROOF POINTS
           </h2>
 
           {/* Carousel Container */}
@@ -266,7 +266,7 @@ const Container = () => {
 
       {/* Bonus Offer Section */}
       <section
-        className="py-16 bg-white text-black animate-fadeIn"
+        className="py-16 bg-white text-black animate-fadeIn p-4"
         style={{ animationDelay: "2s" }}
       >
         <div className="container mx-auto text-center">
@@ -297,7 +297,7 @@ const Container = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-50 text-gray-800">
+      <section className="py-16 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-50 text-gray-800 p-4">
         <div className="container mx-auto text-center">
           {/* Title */}
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight leading-tight">
@@ -317,7 +317,7 @@ const Container = () => {
       </section>
 
       {/* Final Section */}
-      <section className="py-16 bg-gray-50 text-gray-800">
+      <section className="py-16 bg-gray-50 text-gray-800 p-4">
         <div className="container mx-auto text-center">
           {/* Main Text */}
           <p className="text-2xl md:text-3xl font-semibold text-gray-900 leading-relaxed mb-6">
